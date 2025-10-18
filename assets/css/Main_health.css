@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* btn css */
+.btn-ch {
+  border: 1px solid rgba(255, 68, 0, 0.264) !important;
+  background-color: #4A90E2 !important;
+  color: black !important;
+}
+
+.btn-ch:hover {
+  box-shadow: 0px 0px 8px orangered !important;
+}
+
+/* btn css end */
+
+.carousel-caption {
+  bottom: 4.25rem !important;
+}
+
+/* carousel css*/
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 585PX !important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 585PX !important;
+  width: 100%;
+  filter: brightness(50%);
+  /* Makes the image 50% darker */
+}
+
+.display-1 {
+  font-size: 3rem !important;
+}
+
+.adj-para {
+  width: 50%;
+  font-size: 1.1rem !important;
+}
+
+@media (max-width: 325px) {
+  .adj-para {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width:428px) {
+  .adj-para {
+    width: 90% !important;
+  }
+
+  .display-1 {
+    font-size: 2rem !important;
+  }
+
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    height: 585PX !important;
+  }
+
+  .carousel-item img {
+    height: 585PX !important;
+    width: 100%;
+  }
+
+}
+
+/* carousel css end */
+
+/* common css */
+.bg {
+  background-color: #F4F7FF !important;
+  color: white !important;
+}
+
+.text-wh {
+  color: #1E3A8A !important;
+}
+
+.h-25-1 {
+  height: 50px !important;
+}
+
+
+/* common css end */
+
+/* NEWS  */
+.card-img-top {
+  height: 70% !important;
+}
+
+/* Card */
+@media (min-width: 768px) {
+  .custom-card-height {
+    height: 400px;
+    /* Adjust as needed */
+  }
+
+  .custom-bg-height {
+    height: 100%;
+  }
+}
+
+/* Fallback/default height on smaller screens */
+.custom-card-height {
+  height: auto;
+}
+
+.custom-bg-height {
+  height: 200px;
+  /* Smaller height on small screens */
+}
+
+/* Card End */

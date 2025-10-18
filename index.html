@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Care Login</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/img/health-care-logo.png">
+
+
+  <!-- link css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="main container-fluid d-flex ">
+
+    <!-- First page of this website -->
+    <div class="box1 container-fluid vh-100">
+      <div class="container-fluid d-flex flex-column align-items-center justify-content-center h-100 w-100 ">
+        <div class="container-fluid d-flex align-items-center justify-content-center w-100">
+          <img src="./assets/img/health-care-logo.png" alt="" width="190px">
+        </div>
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center w-100 text-white">
+          <div class=" container-fluid text-center">
+            <p class="font">Next Generation Health Care</p>
+          </div>
+          <div class="container-fluid d-flex text-center align-items-center justify-content-center"
+            style="gap: 20px !important;">
+            <p class="font">Wellness</p>
+            <p>
+            <ul>
+              <li class="font">Integrity</li>
+            </ul>
+            </p>
+          </div>
+          <div class="container-fluid d-flex text-center align-items-center justify-content-center"
+            style="gap: 20px !important;">
+            <p class="font">Vitality</p>
+            <p>
+            <ul>
+              <li class="font">Resilience</li>
+            </ul>
+            </p>
+          </div>
+          <div class="container-fluid text-center">
+            <p class="font">Well-being</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second page of this website -->
+    <div class="box2 container-fluid vh-100 bg-light position-relative">
+      <button type="button" class="btn d-flex align-items-center justify-content-center btn-flag position-absolute">
+        <img src="./assets/img/united-states.png" alt="" height="20px" class="me-1">
+        En-US</button>
+      <div
+        class="container-fluid bg-white w-100 vh-100 d-flex flex-column align-items-start justify-content-center gap-5">
+        <div class="container-fluid vh-50 input-main mt-5">
+          <img src="./assets/img/health-care-logo.png" alt="" class="logo-img">
+          <h2>Welcome to <br> Personal Health Care</h2>
+          <h6>Login to your Health Care Account to Continue</h6>
+          <div
+            class="container-fluid input-adj d-flex align-items-center justify-content-around  mt-3 mb-3 ml-0  rounded">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="Enter Your Email Address Or Username" class="border-0 inp-val" required
+              id="Username">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <div
+            class="container-fluid input-adj d-flex align-items-center justify-content-around mt-3 mb-3 ml-0 rounded">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" placeholder="Enter Your Password" class="border-0 from-control" required
+              id="Password">
+            <i class="fa-solid fa-eye-slash cm-clr" id="togglePassword" style="cursor: pointer;"
+              onclick="togglePass()"></i>
+          </div>
+          <p>By clicking Sign In, you agree to our <a href="#">Privacy Policy</a></p>
+          <p>Forgot <a href="#">Username</a> Or <a href="#">Password?</a></p>
+          <button type="button" class="btn btn-primary btn-in" onclick="login()">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="messageContainer" class="message-container">
+    <div id="successMessage" class="message success hidden">
+      <i class="fas fa-check-circle icon"></i>
+      <!-- Font Awesome check circle icon -->
+      <span>Login Successful!</span>
+    </div>
+    <div id="failureMessage" class="message failure hidden">
+      <i class="fas fa-times-circle icon"></i>
+      <!-- Font Awesome times circle icon -->
+      <span>Login Failed. Please try again.</span>
+    </div>
+  </div>
+  <!-- Boostrap Links for script -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- link health.js -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

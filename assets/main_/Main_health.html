@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Health Care</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="../img/health-care-logo.png">
+
+  <!-- link css  -->
+  <link rel="stylesheet" href="../css/Main_health.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- fontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Start navbar -->
+  <div class="container-fluid sticky-top bg">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="../img/health-care-logo.png" alt="" width="50 " height="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item mr-2">
+                <a class="nav-link active fw-bold text-uppercase text-wh" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link fw-bold text-uppercase text-wh" href="#health">HEALTH</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link fw-bold text-uppercase text-wh" href="#news-section">NEWS</a>
+              </li>
+              <li class="nav-item dropdown ms-4 me-4">
+                <a class="nav-link dropdown-toggle fw-bold text-uppercase text-wh" href="#" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DIESASES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-uppercase text-wh fw-bold" href="#diabetes">diabetes</a></li>
+                  <li><a class="dropdown-item text-uppercase text-wh fw-bold"
+                      href="#Cardiovascular_diseases">Cardiovascular diseases</a></li>
+                  <li><a class="dropdown-item text-uppercase text-wh fw-bold"
+                      href="#Chronic_respiratory_diseases">Chronic respiratory diseases</a>
+                  </li>
+                  <li><a class="dropdown-item text-uppercase text-wh fw-bold" href="#dementias">Alzheimer's disease and
+                      other
+                      dementias</a></li>
+                  <li><a class="dropdown-item text-uppercase text-wh fw-bold" href="#Kidney_diseases">Kidney
+                      diseases</a></li>
+                  <!-- <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-uppercase text-wh" href="#health_care_pro" tabindex="-1"
+                  aria-disabled="true">HEALTH
+                  CARE PROFESSIONAL</a>
+              </li>
+            </ul>
+            <form class="d-flex ">
+              <button class="btn btn-ch fw-bold text-wh" onclick="logout()">Logout
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- narbar end -->
+
+  <!-- Carousel start -->
+  <div class=" w-100 m-auto" id="home"></div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide w-100 h-100" data-bs-ride="carousel"
+    data-bs-interval="2000">
+    <div class="carousel-inner">
+      <!-- 1st carousel -->
+      <div class="carousel-item active"">
+        <img src=" ../img/main-img/dr-care.jpg" class="d-block img-front" alt="..." />
+      <!-- <img src=" /img/main-img/dr-care.jpg" class="d-block img-front" alt="..." /> -->
+      <div class="carousel-caption text-start">
+        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn fw-bold">
+          Empathy is our purpose
+        </h1>
+        <p class="adj-para">Empathy as a purpose means actively seeking to understand another's perspective and
+          feelings, putting aside one's own assumptions to truly connect with them. This practice transforms compassion
+          from a passive feeling into an active driver for positive change. </p>
+        <a href="#" class="btn btn-primary py-3 px-4 fw-bold">Explore More</a>
+      </div>
+    </div>
+
+    <!-- 2nd carousel -->
+    <div class="carousel-item">
+      <img src="../img/main-img/group_care.jpg" class="d-block w-100" alt="..." />
+      <!-- <img src="/img/main-img/group_care.jpg" class="d-block w-100" alt="..." /> -->
+      <div class="carousel-caption text-start">
+        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn fw-bold">
+          The greatest wealth <br> is health
+        </h1>
+        <p class="adj-para"> Money can be earned and lost, but good health is a priceless asset that allows you to
+          experience life to its fullest. A healthy body provides the energy to pursue goals and passions, while a
+          healthy mind offers clarity and peace.</p>
+        <a href="#" class="btn btn-primary py-3 px-4 fw-bold">Explore More</a>
+      </div>
+    </div>
+
+    <!-- 3rd carousel -->
+    <div class="carousel-item">
+      <img src="../img/main-img/healthcare_common.jpg" class="d-block w-100" alt="..." />
+      <!-- <img src="/img/main-img/healthcare_common.jpg" class="d-block w-100" alt="..." /> -->
+      <div class="carousel-caption text-start">
+        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn fw-bold">
+          Your health, <br> your voice
+        </h1>
+        <p class="adj-para"> It is a call to action to not remain silent about your health concerns, but to actively
+          participate in your own care. This concept applies to every aspect of health—physical, mental, emotional, and
+          social—empowering you to take control and make informed decisions.</p>
+        <a href="#" class="btn btn-primary py-3 px-4 fw-bold">Explore More</a>
+      </div>
+    </div>
+
+    <!-- 4th carousel -->
+    <div class="carousel-item">
+      <img src="../img/main-img/ledi_dr.care.jpg" class="d-block w-100" alt="..." />
+      <!-- <img src="/img/main-img/ledi_dr.care.jpg" class="d-block w-100" alt="..." /> -->
+      <div class="carousel-caption text-start">
+        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn fw-bold">
+          Small steps, big impact
+        </h1>
+        <p class="adj-para"> Instead of attempting one overwhelming, large-scale change, this approach focuses on
+          building momentum through a series of manageable, incremental improvements. This continuous, steady progress
+          makes big, audacious dreams feel achievable and sustainable. </p>
+        <a href="#" class="btn btn-primary py-3 px-4 fw-bold">Explore More</a>
+      </div>
+    </div>
+
+    <!-- 5th carousel -->
+    <div class="carousel-item">
+      <img src="../img/main-img/medical-technology-doctor.webp" class="d-block w-100" alt="..." />
+      <!-- <img src="/img/main-img/medical-technology-doctor.webp" class="d-block w-100" alt="..." /> -->
+      <div class="carousel-caption text-start">
+        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn fw-bold">
+          We're in this <br> together
+        </h1>
+        <p class="adj-para">It serves as a reminder that no one is alone in the struggle, strengthening bonds by
+          emphasizing collective responsibility and a common purpose. This phrase is often invoked during trying times
+          to build morale and reinforce the idea that success or failure is a group outcome. </p>
+        <a href="#" class="btn btn-primary py-3 px-4 fw-bold">Explore More</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="h-25-1 w-100 m-auto" id="health"></div>
+  <!-- carousel end -->
+
+  <!-- Health section -->
+  <div class="container-fluid ">
+    <div class="container my-5">
+      <div class="row d-flex align-items-center">
+
+        <div class="col-md-6">
+          <img src="../img/main-img/healthy-photo.jpeg" class="img-fluid rounded shadow" alt="Health About">
+          <!-- <img src="/img/main-img/healthy-photo.jpeg" class="img-fluid rounded shadow" alt="Health About"> -->
+        </div>
+
+        <div class="col-md-6">
+          <h3 class="fw-bold text-primary">Health Information</h3>
+          <p class="lead">
+          <ul type="disc">
+            <li>Yoga, in general, is known to help manage stress and anxiety by lowering cortisol levels.</li>
+            <li>The focus required to maintain balance and hold the pose can improve concentration, mental clarity, and
+              mindfulness.</li>
+            <li>Successfully performing challenging poses can boost self-confidence and a sense of accomplishment.</li>
+            <li>Practicing in a natural setting like a beach can amplify these effects, as the sights and sounds of the
+              ocean can promote relaxation and reduce stress. Outdoor yoga also exposes the body to fresh air and
+              sunlight, which can provide a boost of vitamin D.It improves balance, coordination, and body awareness.
+            </li>
+          </ul>
+          </p>
+        </div>
+        <div id="news-section"></div>
+      </div>
+    </div>
+  </div>
+  <!-- end health section -->
+
+  <!-- NEWS Section -->
+  <section id="news-section" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Latest News & Updates <i class="fa-solid fa-newspaper"></i></h2>
+
+      <div class="row">
+        <!-- NEWS FIRST -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/conorashleig-who.jpg" class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/conorashleig-who.jpg" class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Diabetes:</h5>
+              <p class="card-text">Urgent action needed as global diabetes cases increase four-fold over past decades.
+                <br>
+                .
+              </p>
+              <a href="https://www.who.int/news-room/fact-sheets/detail/diabetes"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS FIRST END -->
+
+        <!-- NEWS SECOND -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/id-cardio.jpg" class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/id-cardio.jpg" class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Cardiovascular diseases (CVDs):</h5>
+              <p class="card-text">Cardiovascular diseases kill 10 000 people in the WHO European Region every day, with
+                men dying more frequently than women.</p>
+              <a href="https://www.who.int/europe/news/item/15-05-2024-cardiovascular-diseases-kill-10-000-people-in-the-who-european-region-every-day--with-men-dying-more-frequently-than-women"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS SECOND END -->
+
+        <!-- NEWS THIRD -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/chronic-respiratory-diseases---more-than-80-million-affected.jpg"
+              class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/chronic-respiratory-diseases---more-than-80-million-affected.jpg"
+              class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Chronic respiratory diseases:</h5>
+              <p class="card-text">more than 80 million affected and many more undiagnosed, warns new WHO and European
+                Respiratory Society report.</p>
+              <a href="https://www.who.int/europe/news/item/12-06-2025-chronic-respiratory-diseases--more-than-80-million-affected-and-many-more-undiagnosed--warns-new-who-and-european-respiratory-society-report"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS THIRD END -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 2ND FIG NEWS COTENT -->
+  <section id="news-section" class="py-5">
+    <div class="container">
+
+      <div class="row">
+        <!-- NEWS FORTH -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/Alzheimer's disease and other.jpg" class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/Alzheimer's disease and other.jpg" class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Alzheimer's disease and other
+                dementias:</h5>
+              <p class="card-text">World failing to address dementia challenge
+                <br>
+                .
+              </p>
+              <a href="https://www.who.int/news/item/02-09-2021-world-failing-to-address-dementia-challenge"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS FORTH END -->
+
+        <!-- NEWS FIFTH -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/Kidney_diseases.avif" class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/Kidney_diseases.avif" class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Kidney diseases:</h5>
+              <p class="card-text">PAHO Issues Recommendations to Strengthen Surveillance on Unusual Kidney Disease
+                Epidemic in Central America.</p>
+              <a href="https://www.paho.org/en/news/24-8-2017-paho-issues-recommendations-strengthen-surveillance-unusual-kidney-disease-epidemic"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS FIFTH END -->
+
+        <!-- NEWS SIX -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="../img/main-img/WHO-LAST.webp" class="card-img-top" alt="News Image 1">
+            <!-- <img src="/img/main-img/WHO-LAST.webp" class="card-img-top" alt="News Image 1"> -->
+            <div class="card-body">
+
+              <h5 class="card-title mt-1">Disease Outbreak News (DONs):</h5>
+              <p class="card-text"> WHO Disease Outbreak News, providing information on confirmed acute public health
+                events or potential events of concern.</p>
+
+              <a href="https://www.who.int/emergencies/disease-outbreak-news"
+                class="btn btn-primary btn-sm stretched-link">Read More &rarr;</a>
+              <div id="diabetes"></div>
+            </div>
+          </div>
+        </div>
+        <!-- NEWS SIX END -->
+      </div>
+    </div>
+  </section>
+  <!-- end NEWS section -->
+
+  <!-- diabetes -->
+  <section>
+    <h2 class="text-center mb-5"> Diabetes </h2>
+    <div class="container-fluid">
+      <div class="container d-flex flex-lg-row flex-md-column flex-column">
+        <div class="container-fluid">
+          <div>
+            <h3 class="h3">What is diabetes?</h3>
+            <p>Diabetes mellitus is a chronic condition in which blood glucose (sugar) levels are too high. Glucose is a
+              primary source of energy, but it needs the hormone insulin to enter the body's cells. Diabetes occurs when
+              there is a problem with insulin production or how the body uses it.</p>
+          </div>
+          <div>
+            <h4 class="h6 mb-3">There are several types of diabetes: </h4>
+            <ul>
+              <li>
+                <h5 class="h6 d-inline">Type 1 diabetes:</h5>
+                An autoimmune disease where the body mistakenly attacks and destroys the insulin-producing cells in the
+                pancreas. This means little to no insulin is produced, and it often appears suddenly.
+              </li>
+              <li>
+                <h5 class="h6 d-inline">Type 2 diabetes:</h5>
+                A metabolic disorder where the body either doesn't produce enough insulin or develops "insulin
+                resistance," meaning the body's cells don't respond to insulin effectively. It is the most common type
+                and often develops gradually.
+              </li>
+              <li>
+                <h5 class="h6 d-inline">Prediabetes:</h5>
+                A condition where blood sugar levels are higher than normal but not high enough for a diabetes
+                diagnosis. Early intervention can help reverse this condition.
+              </li>
+              <li>
+                <h5 class="h6 d-inline">Gestational diabetes: </h5>
+                Occurs during pregnancy due to hormonal changes that cause insulin resistance. It usually resolves after
+                childbirth but increases the risk of developing type 2 diabetes later.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="h3">How to check for diabetes</h3>
+            <p>Diabetes is diagnosed with blood tests performed by a doctor, not with at-home glucometers. In India,
+              labs like Dr Lal PathLabs and Tata 1mg Labs offer testing services, sometimes with at-home sample
+              collection. </p>
+          </div>
+          <img src="../img/main-img/doctor-injecting-patient.jpg" class="img-fluid" alt=""
+            style="max-height: 200px !important;">
+          <!-- <img src="/img/main-img/doctor-injecting-patient.jpg" class="img-fluid" alt=""
+            style="max-height: 200px !important;"> -->
+        </div>
+        <div class="container-fluid">
+          <div>
+            <h4 class="h6 mb-3">The main diagnostic blood tests include: </h4>
+            <ul>
+              <li>
+                <h6 class="h6 d-inline">A1C test (or HbA1C):</h6>
+                A1C test (or HbA1C):
+                <ul type="circle">
+                  <li>
+                    <h6 class="h6 d-inline">Normal: </h6>
+                    Below 5.7%
+                  </li>
+                  <li>
+                    <h6 class="h6 d-inline">Prediabetes:</h6>
+                    5.7% to 6.4%
+                  </li>
+                  <li>
+                    <h6 class="h6 d-inline">Diabetes:</h6>
+                    6.5% or higher on two separate tests
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h6 class="h6 d-inline">Fasting Plasma Glucose (FPG) test:</h6>
+                Measures blood sugar after an overnight fast (at least 8 hours).
+                <ul>
+                  <li>
+                    <h6 class="d-inline h6">Normal:</h6>
+                    99 mg/dL or below
+                  </li>
+                  <li>
+                    <h6 class="d-inline h6">Prediabetes:</h6>
+                    100 to 125 mg/dL
+                  </li>
+                  <li>
+                    <h6 class="d-inline h6">Diabetes:</h6>
+                    126 mg/dL or higher on two separate tests
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h6 class="h6 d-inline">Random Plasma Glucose (RPG) test:</h6>
+                Measures blood sugar at any time. A reading of 200 mg/dL or higher in a person with symptoms suggests
+                diabetes, but a confirmatory test is usually needed.
+              </li>
+              <li>
+                <h6 class="h6 d-inline">Oral Glucose Tolerance Test (OGTT):</h6>
+                Measures blood sugar before and two hours after consuming a sugary drink. A reading of 200 mg/dL or
+                higher after two hours suggests diabetes.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="h4 mb-3">Physical work and diabetes </h4>
+            <p>Physical activity is extremely important for managing diabetes. It helps control blood sugar levels,
+              improves insulin sensitivity, and lowers the risk of complications. </p>
+            <ul>
+              <li>
+                <h6 class="h6 d-inline">Recommended activity:</h6>
+                Aim for at least 150 minutes of moderate aerobic activity (brisk walking, swimming, cycling) each week,
+                spread over several days. Also, include muscle-strengthening activities 2–3 times a week.
+              </li>
+              <li>
+                <h6 class="h6 d-inline">Check with your doctor</h6>
+                Consult your doctor before starting any new exercise program, especially if you have pre-existing health
+                conditions like diabetic retinopathy.
+              </li>
+              <li>
+                <h6 class="h6 d-inline">Check blood sugar:</h6>
+                Monitor your blood sugar levels before and after exercise, especially if you take insulin. Carry a
+                fast-acting carbohydrate source like glucose tablets or juice to treat low blood sugar if needed.
+              </li>
+            </ul>
+            <div id="Cardiovascular_diseases"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- diabetes end -->
+
+  <!-- Cardiovascular diseases Start -->
+  <section>
+    <h2 class="text-center mb-5 mt-5"> Cardiovascular Diseases </h2>
+    <section>
+      <div class="container-fluid">
+        <div class="container d-flex flex-lg-row flex-md-column flex-column">
+          <div class="container-fluid">
+            <div>
+              <h3 class="h3">What are cardiovascular diseases?</h3>
+              <p>Cardiovascular diseases (CVD) are a group of disorders involving the heart and blood vessels. They
+                include conditions such as coronary artery disease, stroke, heart failure, and hypertension. Risk
+                factors include high blood pressure, high cholesterol, smoking, diabetes, obesity, and a sedentary
+                lifestyle.</p>
+            </div>
+            <div>
+              <h4 class="h6 mb-3">There are several major types of CVD: </h4>
+              <ul>
+                <li>
+                  <h5 class="h6 d-inline">Coronary artery disease (CAD):</h5> Narrowing or blockage of the arteries
+                  supplying the heart, which can cause chest pain (angina) or heart attack.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Stroke:</h5> Disruption of blood flow to the brain, causing brain injury.
+                  Strokes can be ischemic (blocked artery) or hemorrhagic (bleeding).
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Heart failure:</h5> A condition where the heart cannot pump blood effectively
+                  to meet the body's needs.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Hypertension (high blood pressure):</h5> Persistent elevation of blood
+                  pressure that increases the risk of heart disease and stroke.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Arrhythmias:</h5> Abnormal heart rhythms that can affect how well the heart
+                  pumps blood.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Peripheral artery disease (PAD):</h5> Narrowing of arteries outside the heart,
+                  often in the legs, causing leg pain and ulcers.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">How to assess cardiovascular risk</h3>
+              <p>Regular evaluation by a healthcare provider helps identify risk factors and guide prevention. Key
+                measures include blood pressure, cholesterol levels, blood glucose, body weight, and lifestyle
+                assessment.</p>
+            </div>
+            <img src="../img/main-img/Cardiovascular-Disease.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;">
+            <!-- <img src="/img/main-img/Cardiovascular-Disease.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;"> -->
+          </div>
+          <div class="container-fluid">
+            <div>
+              <h4 class="h6 mb-3">Common diagnostic tests for CVD: </h4>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Blood pressure measurement:</h6> Determines if blood pressure is within normal
+                  range.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Lipid profile:</h6> Measures cholesterol and triglyceride levels to assess
+                  heart disease risk.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Electrocardiogram (ECG):</h6> Records the electrical activity of the heart to
+                  detect arrhythmias and heart muscle problems.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Echocardiography:</h6> Uses ultrasound to visualize heart structure and
+                  function.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Stress testing:</h6> Assesses how the heart performs under physical exertion.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Imaging (CT/MRI):</h6> Evaluates blood vessels and heart anatomy when
+                  indicated.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="h4 mb-3 mt-5">Lifestyle and cardiovascular health </h4>
+              <p>Adopting healthy habits helps prevent and manage CVD. This includes regular physical activity, a
+                heart-healthy diet, maintaining a healthy weight, avoiding tobacco, and limiting alcohol. </p>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Recommended activity:</h6>
+                  Aim for at least 150 minutes of moderate aerobic activity (brisk walking, cycling) each week, plus 2–3
+                  sessions of strength training.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Dietary choices:</h6>
+                  Emphasize vegetables, fruits, whole grains, lean proteins, and healthy fats; limit saturated fats,
+                  salt, and added sugars.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Medical management:</h6>
+                  Follow prescribed treatments for high blood pressure, high cholesterol, diabetes, or other conditions
+                  that raise CVD risk.
+                  <div id="Chronic_respiratory_diseases"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Cardiovascular diseases End -->
+
+  <!-- Chronic respiratory diseases Start-->
+  <section>
+    <h2 class="text-center mb-5 mt-5"> Chronic Respiratory Diseases </h2>
+    <section>
+      <div class="container-fluid">
+        <div class="container d-flex flex-lg-row flex-md-column flex-column">
+          <div class="container-fluid">
+            <div>
+              <h3 class="h3">What are chronic respiratory diseases?</h3>
+              <p>Chronic respiratory diseases (CRDs) are long-lasting conditions that affect the airways and lungs.
+                Common CRDs include chronic obstructive pulmonary disease (COPD), asthma, bronchiectasis, and
+                interstitial lung diseases. These conditions can cause breathing difficulties, coughing, and reduced
+                exercise tolerance.</p>
+            </div>
+            <div>
+              <h4 class="h6 mb-3">There are several major types of CRDs: </h4>
+              <ul>
+                <li>
+                  <h5 class="h6 d-inline">Chronic obstructive pulmonary disease (COPD):</h5> Progressive airflow
+                  limitation usually caused by smoking or exposure to irritants.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Asthma:</h5> Reversible airway inflammation leading to wheezing, shortness of
+                  breath, and coughing.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Bronchiectasis:</h5> Irreversible widening of airways with mucus buildup and
+                  frequent infections.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Interstitial lung diseases (ILDs):</h5> A group of disorders causing scarring
+                  (fibrosis) of lung tissue.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Pulmonary hypertension:</h5> Elevated blood pressure in the lungs' arteries,
+                  affecting heart and lung function.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">How to assess respiratory health</h3>
+              <p>Regular evaluation by a healthcare provider helps identify symptoms, triggers, and disease control. Key
+                measures include lung function tests, symptom scoring, imaging, and exercise tolerance assessment.</p>
+            </div>
+            <img src="../img/main-img/Chronic_respiratory_diseases.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;">
+            <!-- <img src="/img/main-img/Chronic_respiratory_diseases.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;"> -->
+          </div>
+          <div class="container-fluid">
+            <div>
+              <h4 class="h6 mb-3">Common diagnostic tests for CRDs: </h4>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Spirometry:</h6> Measures how much and how quickly you can move air in and out
+                  of the lungs.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Chest X-ray or CT scan:</h6> Visualizes lung structure and detects anomalies
+                  or scarring.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Lung diffusion capacity (DLCO):</h6> Assesses how well gases exchange in the
+                  lungs.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Arterial blood gas (ABG):</h6> Evaluates oxygen and carbon dioxide levels in
+                  the blood.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Exercise testing:</h6> Assesses oxygen needs and capacity during physical
+                  activity.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Allergy testing or imaging for ILDs:</h6> Helps identify triggers or causes of
+                  specific CRDs.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="h4 mb-3">Lifestyle and respiratory health </h4>
+              <p>Managing CRDs involves avoiding triggers, adhering to medications, vaccination, and maintaining overall
+                health. Avoid tobacco, minimize air irritants, and use inhalers or other prescribed therapies as
+                directed.</p>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Medication adherence:</h6>
+                  Use inhalers, tablets, or nebulizers as prescribed to control symptoms and flare-ups.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Vaccinations:</h6>
+                  Stay up to date with influenza and pneumococcal vaccines to reduce respiratory infections.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Pulmonary rehabilitation:</h6>
+                  A structured program combining exercise and education to improve breathing.
+                  <div id="dementias"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Chronic respiratory diseases End -->
+
+  <!-- Alzheimer's disease and other dementias Start-->
+  <section>
+    <h2 class="text-center mb-5 mt-5"> Alzheimer's disease and other dementias </h2>
+    <section>
+      <div class="container-fluid">
+        <div class="container d-flex flex-lg-row flex-md-column flex-column">
+          <div class="container-fluid">
+            <div>
+              <h3 class="h3">What are Alzheimer's disease and other dementias?</h3>
+              <p>Alzheimer's disease is a progressive neurological disorder that causes memory loss and cognitive
+                decline. Other dementias include vascular dementia, Lewy body dementia, frontotemporal dementia, and
+                mixed dementia. These conditions impair thinking, behavior, and daily functioning over time.</p>
+            </div>
+            <div>
+              <h4 class="h6 mb-3">There are several major types of dementia: </h4>
+              <ul>
+                <li>
+                  <h5 class="h6 d-inline">Alzheimer's disease:</h5> The most common form of dementia, characterized by
+                  progressive memory loss and cognitive impairment.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Vascular dementia:</h5> Dementia caused by reduced blood flow to the brain,
+                  often after a stroke or series of mini-strokes.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Lewy body dementia:</h5> Involves abnormal protein deposits in the brain
+                  leading to visual hallucinations, movement problems, and fluctuations in alertness.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Frontotemporal dementia:</h5> Affects the frontal and temporal lobes, leading
+                  to changes in personality, behavior, and language.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Mixed dementia:</h5> A combination of dementia types, most commonly
+                  Alzheimer’s disease with vascular dementia.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">How to assess cognitive health</h3>
+              <p>Evaluation by a healthcare professional includes medical history, cognitive and functional assessments,
+                physical examination, and often imaging or laboratory tests to rule out other causes of cognitive
+                symptoms.</p>
+            </div>
+            <img src="../img/main-img/Alzheimer's_disease.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;">
+            <!-- <img src="/img/main-img/Alzheimer's_disease.webp" class="img-fluid" alt=""
+              style="max-height: 200px !important;"> -->
+          </div>
+          <div class="container-fluid">
+            <div>
+              <h4 class="h6 mb-3">Common diagnostic tools for dementia: </h4>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Cognitive screening tests:</h6> Tools like the Mini-Mental State Examination
+                  (MMSE) or Montreal Cognitive Assessment (MoCA) assess memory and thinking skills.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Comprehensive neuropsychological testing:</h6> In-depth assessment of memory,
+                  language, attention, and problem-solving abilities.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Brain imaging:</h6> MRI or CT scans detect structural changes, strokes,
+                  tumors, or other causes.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Laboratory tests:</h6> Blood tests to identify reversible causes of cognitive
+                  decline (e.g., thyroid, vitamin deficiencies, infections).
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Neuropathological assessment (post-mortem):</h6> Used in research to confirm
+                  dementia type by examining brain tissue.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="h4 mb-3">Lifestyle and brain health </h4>
+              <p>While some dementias have a genetic component, many risk factors can be addressed through lifestyle and
+                medical care. Engage in mentally stimulating activities, physical activity, social engagement, and
+                cardiovascular risk management.</p>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Physical activity:</h6>
+                  Aim for regular aerobic and strength-training activities as advised by a clinician.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Dietary choices:</h6>
+                  Emphasize Mediterranean-style diets rich in vegetables, fruits, whole grains, fish, and healthy fats.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Cardiovascular risk management:</h6>
+                  Control blood pressure, cholesterol, diabetes, and maintain a healthy weight.
+                </li>
+              </ul>
+            </div>
+            <div id="Kidney_diseases"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Alzheimer's disease and other dementias End-->
+
+  <!-- Kidney_diseases Start-->
+  <section>
+    <h2 class="text-center mb-5 mt-5"> Kidney Diseases </h2>
+    <section>
+      <div class="container-fluid">
+        <div class="container d-flex flex-lg-row flex-md-column flex-column">
+          <div class="container-fluid">
+            <div>
+              <h3 class="h3">What are kidney diseases?</h3>
+              <p>Kidney diseases refer to conditions that affect kidney structure or function. They can range from acute
+                kidney injury to chronic kidney disease (CKD) and end-stage renal disease (ESRD). Kidneys help filter
+                waste, balance fluids and electrolytes, and regulate blood pressure.</p>
+            </div>
+            <div>
+              <h4 class="h6 mb-3">There are several major types of kidney diseases: </h4>
+              <ul>
+                <li>
+                  <h5 class="h6 d-inline">Chronic kidney disease (CKD):</h5> Gradual loss of kidney function over months
+                  to years.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Acute kidney injury (AKI):</h5> Sudden decrease in kidney function, often
+                  reversible with prompt treatment.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Glomerulonephritis:</h5> Inflammation of the kidney filtering units
+                  (glomeruli) that can affect filtration.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Polycystic kidney disease (PKD):</h5> A genetic disorder characterized by
+                  growth of numerous cysts in the kidneys.
+                </li>
+                <li>
+                  <h5 class="h6 d-inline">Kidney stones:</h5> Hard mineral deposits that form in the kidneys and can
+                  cause pain and obstruction.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">How to assess kidney health</h3>
+              <p>Evaluation by a healthcare provider includes assessing symptoms, urine tests, blood tests, and imaging
+                to determine kidney function and structure. Early detection improves outcomes.</p>
+            </div>
+            <!-- <img src="/img/main-img/KidneyDisease.jpg" class="img-fluid" alt=""
+              style="max-height: 200px !important;"> -->
+            <img src="../img/main-img/KidneyDisease.jpg" class="img-fluid" alt="" style="max-height: 200px !important;">
+          </div>
+          <div class="container-fluid">
+            <div>
+              <h4 class="h6 mb-3">Common diagnostic tests for kidney disease: </h4>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Estimated Glomerular Filtration Rate (eGFR):</h6> Measures kidney filtration
+                  function using blood creatinine levels.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Urinalysis:</h6> Detects protein, blood, sugar, and other substances in urine.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Albumin-to-creatinine ratio (ACR):</h6> Assesses urine protein loss, an early
+                  sign of kidney disease.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Blood tests:</h6> Check electrolytes, kidney waste products (creatinine,
+                  urea), and minerals.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Renal imaging:</h6> Ultrasound, CT, or MRI to visualize kidney size,
+                  structure, and stones.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Kidney biopsy:</h6> May be indicated to determine specific causes of kidney
+                  disease.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="h4 mb-3">Lifestyle and kidney health </h4>
+              <p>Protecting kidney health involves controlling blood pressure and blood sugar, staying hydrated,
+                limiting nephrotoxic medications, and adopting a kidney-friendly diet.</p>
+              <ul>
+                <li>
+                  <h6 class="h6 d-inline">Dietary choices:</h6>
+                  Limit salt, processed foods, and high-phosphorus items; choose fruits, vegetables, and lean proteins
+                  as advised.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Blood pressure management:</h6>
+                  Maintain blood pressure within target ranges to reduce kidney damage risk.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Glycemic control:</h6>
+                  If diabetic, maintain good blood sugar control to slow CKD progression.
+                </li>
+                <li>
+                  <h6 class="h6 d-inline">Hydration and medications:</h6>
+                  Use medications as prescribed and avoid overuse of NSAIDs and other nephrotoxic substances.
+                </li>
+              </ul>
+            </div>
+            <div id="health_care_pro"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- Kidney_diseases End-->
+
+  <!-- Health care proffesionl section -->
+
+  <section class="container py-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+        <div class="card h-100 shadow-sm mx-auto custom-card-height" style="max-width: 700px; width: 100%;">
+          <div class="row g-0 h-100">
+            <div class="col-4">
+              <div class="bg-image rounded-start w-100 custom-bg-height" style="background-image: url('../img/main-img/Ledi_doctor.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+              </div>
+            </div>
+            <div class="col-8 d-flex flex-column justify-content-between">
+              <div class="card-body">
+                <h4 class="card-title mb-2">Dr. TK</h4>
+                <p class="card-text mb-2">
+                  I am a diabetologist who specializes in diagnosing and managing all types of diabetes
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2nd card -->
+  <section class="container py-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+        <div class="card h-100 shadow-sm mx-auto custom-card-height" style="max-width: 700px; width: 100%;">
+          <div class="row g-0 h-100">
+            <div class="col-4">
+              <div class="bg-image rounded-start w-100 custom-bg-height" style="background-image: url('../img/main-img/dr.yash.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+              </div>
+            </div>
+            <div class="col-8 d-flex flex-column justify-content-between">
+              <div class="card-body">
+                <h4 class="card-title mb-2">Dr. YJ</h4>
+                <p class="card-text mb-2">
+                  I have 13 years experience ,A nephrologist is a medical doctor who specializes in the diagnosis,
+                  treatment, and management of kidney diseases
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 2nd End -->
+
+  <!-- 3rd start -->
+  <section class="container py-4 ">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+        <div class="card h-100 shadow-sm mx-auto custom-card-height" style="max-width: 700px; width: 100%;">
+          <div class="row g-0 h-100">
+            <div class="col-4">
+              <div class="bg-image rounded-start w-100 custom-bg-height" style="background-image: url('../img/main-img/dr.krish.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+              </div>
+            </div>
+            <div class="col-8 d-flex flex-column justify-content-between">
+              <div class="card-body">
+                <h4 class="card-title mb-2">Dr. KA</h4>
+                <p class="card-text mb-2">
+                  I have 7 years experience andI am a cardiovascular specialist, an expert in the care of the heart and
+                  blood vessels. I help diagnose, treat, and prevent a wide range of cardiovascular problems
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 3rd end -->
+  <!-- health care proffession section end -->
+
+
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <!-- Social Media Section -->
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="text-center text-md-left">Copyright &copy; 2025 All rights reserved by :
+            <a href="#" style="text-decoration: none;"><strong class="text-warning">IT Engineers</strong></a>
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" style="font-size: 23px;">
+                  <i class="fab fa-instagram text-white"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer END -->
+
+
+  <!-- Boostrap Links for script -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+
+  <!-- Logout functionality -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
