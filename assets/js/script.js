@@ -65,14 +65,7 @@ function checkLogin() {
 }
 
 // Block browser back/forward buttons (add this to main page)
-function blockNavigation() {
-    // Prevent back button
-    history.pushState(null, null, location.href);
-    window.onpopstate = function() {
-        history.go(1);
-        alert("Please use the logout button to exit.");
-    };
-}
+
 
 // Create simple logout button (add this to main page)
 function addLogoutButton() {
