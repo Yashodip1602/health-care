@@ -23,8 +23,7 @@ body{
     padding: 0 !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-image: url(/bg-img.jpg);
-    background: linear-gradient(135deg, rgba(185, 40, 175, 0.507),rgba(43, 57, 205, 0.472)),url(/bg-img.jpg) no-repeat center top !important;
+    background: linear-gradient(135deg, rgba(185, 40, 175, 0.507),rgba(43, 57, 205, 0.472));
     text-shadow: 0px 0px 10px rgb(0, 0, 0) !important;
 }
 
