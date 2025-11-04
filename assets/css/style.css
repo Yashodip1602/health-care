@@ -7,25 +7,32 @@
 body{
     font-family: 'Inter';
     color: #001a43;
+    background-color: #ffffff !important;
 }
 
 .main{
     padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    
 }
 
 .box1{
     margin: 0 !important;
     padding: 0 !important;
-    width: 45% !important;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.472)),url(/assets/img/bg-img.jpg) no-repeat center top !important;
+    background-repeat: no-repeat !important;
     background-size: cover !important;
-    /* background-position: right; */
+    background-image: url(/bg-img.jpg);
+    background: linear-gradient(135deg, rgba(185, 40, 175, 0.507),rgba(43, 57, 205, 0.472)),url(/bg-img.jpg) no-repeat center top !important;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0) !important;
 }
 
 .box2{
-    width: 55% !important;
+    width: 55%; 
     margin: 0 !important;
     padding: 0 !important;
+    background-color: #ffffff !important;           
 }
 
 .btn-flag{
@@ -101,6 +108,7 @@ input{
 
     .btn-in{
         width: 80% !important;
+        margin-bottom: 20px;
     }
 
     .logo-img{
